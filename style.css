@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(https://uploads-ssl.webflow.com/62398a82f65cfc2c79414e6c/6322dfe88b6f12be3a7dbb59_Datenpunkt-p-1600.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div
+{
+    align-items: center;
+}
+.table
+{
+    background-color: rgb(68, 68, 68);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px -5px 10px 0 rgba(0, 0, 0, 0.226);
+    margin-right: 40%;
+}
+p
+{
+    width: 150%;
+}
+.button
+{
+    font-size: 18px;
+    font-weight: bolder;
+    width: 55px;
+    height: 55px;
+    background-color: rgba(95, 95, 95, 0.534);
+    color: rgba(255, 255, 255, 0.829);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.808);
+}
+.button:active
+{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.808);
+    background-color: rgb(68, 68, 68);;
+}
+.add-button
+{
+    font-size: 18px;
+    font-weight: bolder;
+    width: 55px;
+    height: 111px;
+    background-color: rgba(104, 104, 104, 0.534);
+    color: rgba(255, 255, 255, 0.829);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.486);
+}
+.add-button:active
+{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.808);
+    background-color: rgb(68, 68, 68);
+}
+.eq-button
+{
+    font-size: 18px;
+    font-weight: bolder;
+    height: 55px;
+    width: 115px;
+    background-color: rgba(104, 104, 104, 0.534);
+    color: rgba(255, 255, 255, 0.829);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.486);
+}
+.eq-button:active
+{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.808);
+    background-color: rgb(68, 68, 68);
+}
+.bar
+{
+    width: 285px;
+    height: 56px;
+    background: none;
+    color: rgba(255, 255, 255, 0.829);
+    border-radius: 10px;
+    
+}
+.Clear
+{
+    font-size: 18px;
+    font-weight: bolder;
+    width: 55px;
+    height: 55px;
+    background-color: rgba(95, 95, 95, 0.534);
+    color: rgba(255, 255, 255, 0.829);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.808);
+    margin-left: 80%;
+}
+.Clear:active
+{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.808);
+    background-color: rgb(68, 68, 68);
+}
+.Nam
+{
+    margin-left: 30%; 
+    margin-right: 20%;
+    font-size: 110px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container
+{
+    display: flex; 
+    justify-content: center; 
+    margin-top: 120px;
+}
+
+@media only screen and (max-width: 1080px)
+{
+    .container
+    { 
+        display: block;
+        justify-self: left;
+        margin-top: 120px;
+    }
+    .Nam
+    { 
+        font-size: 110px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 7%;
+        margin-left: 28.5%;
+    }
+}
+@media only screen and (max-width: 720px)
+{
+    .container
+    { 
+        display: block;
+        margin-top: 120px;
+    }
+    .Nam
+    { 
+        margin-bottom: 7%;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 420px)
+{
+    .container
+    { 
+        display: block;
+        margin-top: 120px;
+    }
+    .Nam
+    { 
+        margin-bottom: 7%;
+        margin-left: 3%;
+    }
+    .table
+{
+    margin-right: 15%;
+}
+}

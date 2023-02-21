@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <div class="container"> 
+	<div class="Nam">
+        <p>
+            Calc.
+        </p>
+        <p>
+            + - × ÷
+        </p>
+    </div>
+                    <table class="table" align="right">
+                        <tr>
+                            <td colspan="5">
+                                <input class="bar" type="text" id="His-Bar" style="text-align: right; font-size: 18px; height: 25px; border: none; margin-top: 50px; overflow: hidden;" disabled>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5">
+                                <input class="bar" type="text" id="Main-Bar" placeholder="0" style="text-align: right; font-size: 36px; margin-bottom: 30px; overflow: hidden; background-color: aquamarine; color: black;" disabled>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5">
+                                <input class="Clear" type="button" value="C" onclick="c()">
+                            </td>
+                        </tr>
+                        <tr> 
+                            <td>
+                                <input class="button" type="button" value="7" onclick="document.getElementById('Main-Bar').value += '7'">
+                            </td>
+                            <td>
+                                <input class="button" type="button" value="8" onclick="document.getElementById('Main-Bar').value += '8'">
+                            </td>
+                             <td>
+                                <input class="button" type="button" value="9" onclick="document.getElementById('Main-Bar').value += '9'">
+                            </td>
+                            <td>
+                                <input class="button" type="button" value="÷" onclick="cal(' ÷', 4)">
+                            </td>
+                            <td>
+                                <input class="button" type="button" value="AC" onclick="ac()">  
+                            </td>           
+                        </tr>
+                        <tr>
+                            <td>
+                                <input class="button" type="button" value="4" onclick="document.getElementById('Main-Bar').value += '4'">
+                            </td>
+                            <td>
+                                <input class="button" type="button" value="5" onclick="document.getElementById('Main-Bar').value += '5'">
+                            </td>
+                             <td>
+                                <input class="button" type="button" value="6" onclick="document.getElementById('Main-Bar').value += '6'">
+                            </td>
+                            <td>
+                                <input class="button" type="button" value="×" onclick="cal(' ×', 3)">
+                            </td>
+                            <td rowspan="2">
+                                <input type="button" value="+" onclick="cal(' +', 1);" class="add-button">  
+                            </td>   
+                        </tr>
+                        <tr>
+                            <td>
+                                <input class="button" type="button" value="1" onclick="document.getElementById('Main-Bar').value += '1'">
+                            </td>
+                            <td>
+                                <input class="button"type="button" value="2" onclick="document.getElementById('Main-Bar').value += '2'">
+                            </td>
+                             <td>
+                                <input class="button" type="button" value="3" onclick="document.getElementById('Main-Bar').value += '3'">
+                            </td>
+                            <td>
+                                <input class="button" type="button" value="-" onclick="cal(' -', 2)">
+                            </td>   
+                        </tr>
+                        <tr>
+                            <td>
+                                <input class="button" type="button" value="0" onclick="document.getElementById('Main-Bar').value += '0'">
+                            </td>
+                            <td>
+                                <input class="button" type="button" value="." onclick="dot()">
+                            </td>
+                             <td>
+                                <input class="button" type="button" value="^" onclick="cal(' ^', 5)">
+                            </td>
+                            <td colspan="2">
+                                <input type="button" value="=" onclick="equal()" class="eq-button">
+                            </td>
+                        </tr>
+                    </table>
+    </div>
+</body>
+</html>
