@@ -1,9 +1,11 @@
 # calc
 Hello!
-This project represent a student who trys to attempt building real life useful stuff with the knowledge he gathered.
-This is a simple calculator for now (Dated: 22/02/2023).
-It has all the basic functionality like Addition, Substraction, Multiplication and Division, there is also a function for calculating power of N.
-The calculator has keydown event listener.
-Adding Zero or Null is restricted at any point.
+I am pleased to present a project developed by a diligent student who has successfully applied his acquired knowledge to create a practical solution. The project in question is a simple calculator, created as of the date 22/02/2023.
+
+This calculator provides all the essential arithmetic functions such as addition, subtraction, multiplication, and division. Moreover, it also includes the power function, which enables users to calculate the power of any number.
+
+The calculator has been designed to operate efficiently, with a keydown event listener that ensures a seamless user experience. Furthermore, the system restricts the addition of zero or null values at any point, ensuring accurate calculations.
+
+Overall, this calculator is a useful tool that demonstrates the student's ability to apply theoretical concepts to real-life situations.
 
 Contact: m.ashar183@protonmail.com
