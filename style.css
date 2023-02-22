@@ -161,13 +161,13 @@ a:active
 }
 .li-c
 {
-    width: 220px;
+    width: 200px;
 }
 .li-c:active
 {
     padding-left: 40px;
 }
-@media only screen and (max-width: 1080px)
+@media only screen and (max-width: 1020px)
 {
     .container
     { 
@@ -177,53 +177,285 @@ a:active
     }
     .Nam
     { 
-        font-size: 110px;
+        font-size: 48px;
         font-weight: bolder;
         font-family: Arial, Helvetica, sans-serif;
         margin-bottom: 7%;
-        margin-left: 28.5%;
+        margin-left: 31%;
     }
     .logo
     {
         margin-right: 85%;
     }
-}
-@media only screen and (max-width: 720px)
-{
-    .container
-    { 
-        display: block;
-        margin-top: 120px;
-    }
-    .Nam
-    { 
-        margin-bottom: 7%;
-        margin-left: 15%;
-    }
-    .logo
+    p
     {
-        margin-right: 85%;
+        width: 100%;
     }
 }
-
-@media only screen and (max-width: 420px)
+@media only screen and (max-width: 800px)
 {
     .container
     { 
         display: block;
-        margin-top: 120px;
+        margin-top: 5px;
     }
     .Nam
-    { 
+    {
+        font-size: 60px; 
         margin-bottom: 7%;
-        margin-left: 3%;
+        margin-left: 30%;
     }
     .table
     {
-        margin-right: 15%;
+        margin-right: 30%;
+    }
+    .logo
+    {
+        margin-right: 85%;
+    }
+    .li-c
+    {
+        width: 190px;
+    }
+    p
+    {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    .container
+    { 
+        display: block;
+        margin-top: 20px;
+    }
+    .Nam
+    { 
+        font-size: 60px;
+        margin-bottom: 7%;
+        margin-left: 27%;
+    }
+    .table
+    {
+        margin-right: 30%;
+    }
+    .logo
+    {
+        margin-right: 85%;
+    }
+    p
+    {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .container
+    { 
+        display: block;
+        margin-top: 5px;
+    }
+    .Nam
+    {
+        font-size: 48px; 
+        margin-bottom: 7%;
+        margin-left: 24%;
+    }
+    .table
+    {
+        margin-right: 25%;
     }
     .logo
     {
         margin-right: 80%;
+    }
+    .li-c
+    {
+        width: 190px;
+    }
+    p
+    {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 540px)
+{
+    .container
+    { 
+        display: block;
+        margin-top: 5px;
+    }
+    .Nam
+    {
+        font-size: 36px; 
+        margin-bottom: 7%;
+        margin-left: 22%;
+    }
+    .table
+    {
+        margin-right: 20%;
+    }
+    .logo
+    {
+        margin-right: 80%;
+    }
+    .li-c
+    {
+        width: 190px;
+    }
+    p
+    {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    .container
+    { 
+        display: block;
+        margin-top: 5px;
+    }
+    .Nam
+    {
+        font-size: 36px; 
+        margin-bottom: 7%;
+        margin-left: 20%;
+    }
+    .table
+    {
+        margin-right: 17%;
+    }
+    .logo
+    {
+        margin-right: 80%;
+    }
+    .li-c
+    {
+        width: 190px;
+    }
+    p
+    {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 414px)
+{
+    .container
+    { 
+        display: block;
+        margin-top: 5px;
+    }
+    .Nam
+    {
+        font-size: 36px; 
+        margin-bottom: 7%;
+        margin-left: 13%;
+    }
+    .table
+    {
+        margin-right: 13%;
+    }
+    .logo
+    {
+        margin-right: 80%;
+    }
+    .li-c
+    {
+        width: 160px;
+    }
+    p
+    {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 380px)
+{
+    .container
+    { 
+        display: block;
+        margin-top: 5px;
+    }
+    .Nam
+    {
+        font-size: 36px; 
+        margin-bottom: 7%;
+        margin-left: 7%;
+    }
+    .table
+    {
+        margin-right: 30%;
+    }
+    .logo
+    {
+        margin-right: 75%;
+    }
+    .li-c
+    {
+        width: 170px;
+    }
+    p
+    {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 390px)
+{
+    .container
+    { 
+        display: block;
+        margin-top: 5px;
+    }
+    .Nam
+    {
+        font-size: 36px; 
+        margin-bottom: 7%;
+        margin-left: 9%;
+    }
+    .table
+    {
+        margin-right: 10%;
+    }
+    .logo
+    {
+        margin-right: 80%;
+    }
+    .li-c
+    {
+        width: 160px;
+    }
+    p
+    {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 360px)
+{
+    .container
+    { 
+        display: block;
+        margin-top: 5px;
+    }
+    .Nam
+    {
+        font-size: 36px; 
+        margin-bottom: 7%;
+        margin-left: 8%;
+    }
+    .table
+    {
+        margin-right: 6%;
+    }
+    .logo
+    {
+        margin-right: 78%;
+    }
+    .li-c
+    {
+        width: 170px;
+    }
+    p
+    {
+        width: 100%;
     }
 }
